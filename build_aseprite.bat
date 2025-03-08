@@ -20,7 +20,7 @@ mkdir %SKIA_DIR%
 mkdir %NINJA_DIR%
 
 REM Step 3: Download Aseprite source
-SET ASEPRITE_URL=https://github.com/aseprite/aseprite/releases/download/v1.3.13-beta1/Aseprite-v1.3.13-beta1-Source.zip
+SET ASEPRITE_URL=https://github.com/aseprite/aseprite/releases/download/v1.3.14-beta1/Aseprite-v1.3.14-beta1-Source.zip
 curl -L -o %ASEPRITE_DIR%\Aseprite-Source.zip %ASEPRITE_URL%
 tar -xf %ASEPRITE_DIR%\Aseprite-Source.zip -C %ASEPRITE_DIR%
 
